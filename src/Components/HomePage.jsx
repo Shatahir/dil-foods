@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 const images = [
-  'public/images/desk-office.jpg',
-  'public/images/architecture-office.jpg',
-  'public/images/office-working-people.jpg',
+  'images/desk-office.jpg',
+  'images/architecture-office.jpg',
+  'images/office-working-people.jpg',
 ]
 const text = ['lorem ipsum', 'lorem ipsum dollar', 'lorem ipsum dollar amet']
 export default function HomePage() {
