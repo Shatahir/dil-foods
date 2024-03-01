@@ -1,0 +1,7 @@
+.nav-po {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 9990;
+  width: 100%;
+}
