@@ -6,7 +6,7 @@ import LinesChart from './LinesChart'
 function Charts() {
   return (
     <>
-      <div className='shadow-lg flex basis-1/2 flex-wrap justify-around items-center border border-indigo-700'>
+      <div className='mx-auto max-w-screen-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around items-center'>
         <div>
           <LinesChart />
         </div>

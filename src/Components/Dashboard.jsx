@@ -33,12 +33,12 @@ function Dashboard() {
     dataHandler()
   }, [])
   return (
-    <div>
+    <div className='mt-16'>
       <div style={{ fontWeight: 'bold', fontSize: '30px', padding: '1rem' }}>
         Food Sales Report
       </div>
       <Charts />
-      <div className='ag-theme-quartz' style={{ height: 620 }}>
+      <div className='ag-theme-quartz mx-auto max-w-screen-xl my-16' style={{ height: 620 }}>
         <AgGridReact rowData={rowData} columnDefs={colDefs} />
       </div>
     </div>

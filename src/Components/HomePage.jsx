@@ -21,7 +21,7 @@ export default function HomePage() {
   }
   return (
     <>
-      <div className=' w-full flex justify-center items-center bg-gray-300'>
+      <div className='w-full flex justify-center items-center bg-gray-300'>
         <div className='w-[1100px] relative'>
           <div
             className='absolute inset-y-0 top-1/2 left-3 w-5 flex'
